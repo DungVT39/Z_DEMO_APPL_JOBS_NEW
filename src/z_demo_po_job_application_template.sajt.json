@@ -1,0 +1,33 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Application Job Template",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "catalogName": "Z_DEMO_PO_JOB_CATALOG_ENTRY"
+  },
+  "parameters": {
+    "valueRangesParameters": [
+      {
+        "name": "COMPANY_CODE",
+        "valueRanges": [
+          {
+            "sign": "include",
+            "option": "equals",
+            "low": "001"
+          }
+        ]
+      },
+      {
+        "name": "DOCUMENT_DATE",
+        "valueRanges": []
+      },
+      {
+        "name": "PURCH_ORG",
+        "valueRanges": []
+      }
+    ]
+  }
+}
